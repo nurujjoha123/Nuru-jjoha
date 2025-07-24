@@ -1,0 +1,402 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f9f9f9;
+  color: #333;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 60px;
+  background: white;
+  align-items: center;
+  border-bottom: 1px solid #eee;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #f97316;
+  
+}
+
+nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+
+.hero {
+  margin-left: 70px;
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: right;
+  border: 2px solid tomato;
+  /* padding: 60px; */
+  background: white;
+}
+
+.hero-text {
+  
+  max-width: 50%;
+ /* justify-content: space-between;
+  justify-content: center;
+  align-items: center; */
+}
+
+.hero-text h1 {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.orange {
+  color: #f97316;
+}
+
+.hero-text p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #555;
+}
+
+.hero-img img {
+  width: 400px;
+  border: 2px solid skyblue;
+  /* max-width: 100%; */
+}
+
+.plants {
+  text-align: center;
+  gap: 20px;
+  padding: 60px 40px;
+}
+
+.plants h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.plants p {
+  color: #666;
+  margin-bottom: 40px;
+}
+
+.plant-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  justify-content: center;
+}
+
+.plant-card {
+  background: white;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+.plant-card:hover {
+  transform: translateY(-5px);
+}
+
+.plant-card img {
+  width: 100%;
+  border-radius: 6px;
+  margin-bottom: 15px;
+}
+
+.plant-card h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.plant-card p {
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.plant-card button {
+  background-color: #f97316;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+
+.plant-card button:hover {
+  background-color: #d65a00;
+}
+/* font-family: Arial, sans-serif;
+      background-color: #f1f5fd;
+      margin: 0;
+      padding: 40px 20px;
+    } */
+
+    .product-grid {
+      
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 30px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .product-card {
+      background-color: white;
+      border-radius: 10px;
+      text-align: center;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      padding: 15px;
+      transition: transform 0.3s ease;
+    }
+
+    .product-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .product-card img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+
+    .product-name {
+      font-size: 16px;
+      margin-top: 10px;
+      color: #333;
+    }
+
+    .product-price {
+      font-weight: bold;
+      margin: 5px 0 10px;
+      color: #000;
+    }
+
+    .add-to-cart {
+      background-color: #f26522;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      font-weight: bold;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    .add-to-cart:hover {
+      background-color: #d74f10;
+      color: skyblue;
+      border-radius: 8px;
+    }
+    .nur{
+      display: flex;
+      justify-content: space-between;
+    }
+    .nana{
+      display: flex;
+      margin: 70px;
+      
+    }
+    .hasan{
+      margin-left: 70px;
+      border: 2px solid lightgreen;
+  
+    }
+    .oii{
+      width: 540px;
+      height: 597px;
+    }
+    .jjoha{
+      font-weight: bold;
+      font-size: 3em;
+       color: #000000;
+      
+    }
+    .noby{
+     
+      gap: 20px;
+     font-size: 1.1em;
+     color: rgb(0, 0, 0, 50%);
+      
+    }
+    .face{
+      font-size: 1.5em;
+      
+    }
+    .okkk{
+      font-weight: 400;
+      color: #E95A08;
+      /* width: 1440px;
+      height: 68px; */
+    }
+    .book{
+     /* margin-top: 20px; */
+      text-align: center;
+      padding: 60px 40px;
+      font-weight: 700;
+      /* gap: 20px; */
+      /* display: grid;
+      justify-content: center; */
+    }
+    .container {
+    position: relative;
+    margin: auto;
+    margin-bottom: 20px;
+
+    width: 390px;
+    height: 201px;
+    gap: 20px;
+    color: rgba(0, 0, 0, 0.4);
+
+}
+.math{
+  margin: 10px;
+}
+.Bloom-card{
+  display: flex;
+}
+
+.Bloom {
+    color: #faf6f5;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.Bloom-1 {
+    font-weight: bold;
+    font-size: 2rem;
+    color: #faf6f5;
+}
+
+.img-tex-center {
+
+    height: 50px;
+    width: 270px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    color: #FFFFFF;
+    font-weight: bold;
+    transform: translate(-50%, -50%);
+}
+
+.container img {
+
+    position: relative;
+    height: 100%;
+}
+
+.container-zabo {
+    position: relative;
+    margin: auto;
+    margin-bottom: 20px;
+
+    width: 773px;
+    height: 432px;
+}
+    .box-sizing {
+    width: 1250px;
+    height: 553px;
+    position: relative;
+}
+
+.content-box {
+    width: 700px;
+    height: 50px;
+    position: absolute;
+    left: 35%;
+    top: 35%;
+}
+
+.box-sizing img {
+    width: 100%;
+}
+
+.colorful {
+    font-weight: 700;
+    font-size: 3.12rem;
+    color: #FFFFFF;
+}
+
+.colorful-in {
+    width: 500px;
+    height: 20px;
+}
+
+.button {
+    color: #FFFFFF;
+    background-color: #E95A08;
+}
+    .school{
+      font-weight: 1440;
+      font-size: 3.12rem;
+
+    }
+    .good{
+     color: rgb(0, 0, 0, 50%);
+      font-weight: 400;
+      font-size: 1.37em;
+    }
+    .figma{
+      padding: 50px;
+      display: flex;
+    }
+    .pic{
+      margin-left: 200px;
+     margin-right: 200px;
+      
+      gap: 30px;
+     
+      display: grid;
+     
+    }
+    .tik{
+      
+      gap: 30px;
+      display: grid;
+      
+    }
+    .amam{
+      
+      display: flex;
+      gap: 30px;
+      /* justify-content: end; */
+     
+    }
+    .minit{
+      color: rgb(0, 0, 0, 50%);
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      /* padding: 0px -300px; */
+    }
+
+    /* section, div:hover{
+      color: red;
+    } */
+     /* .button.add-to-cart:hover{
+      color: red;
+     } */
+      @media screen and (max-width:576px) {
+        
+      }
+
+
+
+
+     
