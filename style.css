@@ -9,9 +9,12 @@ body {
   background: #f9f9f9;
   color: #333;
 }
+.parlamna{
+display: flex;
+}
 
 header {
-  display: flex;
+  
   justify-content: space-between;
   padding: 20px 60px;
   background: white;
@@ -393,8 +396,21 @@ nav a {
       color: red;
      } */
       @media screen and (max-width:576px) {
-        
+        .parlamna{
+          flex-direction: column;
+        }
+        .product-grid{
+          display: grid;
+          grid-template-columns: repeat(2, 2fr);
+        }
+        .nana{
+          flex-direction: column;
+        }
+        .Bloom-card{
+          flex-direction: column;
+        }
       }
+
 
 
 
