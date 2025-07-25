@@ -354,40 +354,30 @@ nav a {
       font-weight: 400;
       font-size: 1.37em;
     }
-    .figma{
-      padding: 50px;
+    /* footer */
+    .footer-main{
       display: flex;
-    }
-    .pic{
-      margin-left: 200px;
-     margin-right: 200px;
-      
-      gap: 30px;
-     
-      display: grid;
-     
-    }
-    .tik{
-      
-      gap: 30px;
-      display: grid;
       
     }
-    .amam{
-      
-      display: flex;
-      gap: 30px;
-      /* justify-content: end; */
-     
-    }
-    .minit{
-      color: rgb(0, 0, 0, 50%);
-      text-decoration: none;
-      display: flex;
+    .developar{
       align-items: center;
+      display: flex;
       justify-content: space-between;
-      /* padding: 0px -300px; */
     }
+    .footer-items{
+      
+      gap: 100px;
+      display: flex;
+    }
+    .footer-home li{
+      list-style: none;
+
+    }
+    .footer-home li a{
+      text-decoration: none;
+      color: #555;
+    }
+    
 
     /* section, div:hover{
       color: red;
