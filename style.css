@@ -43,7 +43,7 @@ nav a {
   display: flex;
   justify-content: space-between;
   align-items: right;
-  border: 2px solid tomato;
+  /* border: 2px solid tomato; */
   /* padding: 60px; */
   background: white;
 }
@@ -74,8 +74,8 @@ nav a {
 
 .hero-img img {
   width: 400px;
-  border: 2px solid skyblue;
-  /* max-width: 100%; */
+  
+  
 }
 
 .plants {
