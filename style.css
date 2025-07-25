@@ -399,7 +399,31 @@ nav a {
         .Bloom-card{
           flex-direction: column;
         }
+        .box-sizing img{
+          width: 393px;
+          height: 276px;
+          margin-left: 60px;
+
+        }
+        .container-zabo img{
+          width: 393px;
+          height: 276px;
+          
+
+        }
+        .developar{
+         flex-direction: column;
+        }
+        .footer-items{
+          flex-direction: column;
+        }
+        .colorful-in{
+          flex-direction: 30px;
+          height: 20px;
+          /* margin-right: -100px; */
+        }
       }
+
 
 
 
